@@ -53,7 +53,8 @@ namespace Logger
 			{
 				double total = 0.0f;
 				total = sdata[key].Sum();
-				Console.WriteLine("{0} :: avg={1}", key, total / sdata[key].Count);
+				sdata[key].Sort();
+				Console.WriteLine("min={1} max={2} avg={3} ==> {0}", key, sdata[key].First(), sdata[key].Last(), (total / sdata[key].Count).ToString("0.00"));
 			}
 
 			Console.ReadKey();

@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FiddlerCore">
-      <HintPath>..\FiddlerCore.dll</HintPath>
+      <HintPath>thirdparty\FiddlerCore.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
